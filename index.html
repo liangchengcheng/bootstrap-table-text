@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <style>
+        .row{
+            margin-bottom: 20px;
+
+        }
+        .row .row{
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+        [class*="col-"]{
+            /*通配的方式*/
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: #00B7FF;
+            background-color: rgba(86,61,124,.15);
+            border: 1px solid #ddd;
+            border: 1px solid rgba(86,61,124,.2);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-1"> 这是1个 </div>
+        <div class="col-md-1"> 这是2个 </div>
+        <div class="col-md-1"> 这是3个 </div>
+        <div class="col-md-1"> 这是4个 </div>
+        <div class="col-md-1"> 这是5个 </div>
+        <div class="col-md-1"> 这是6个 </div>
+        <div class="col-md-1"> 这是7个 </div>
+        <div class="col-md-1"> 这是8个 </div>
+        <div class="col-md-1"> 这是9个 </div>
+        <div class="col-md-1"> 这是10个 </div>
+        <div class="col-md-1"> 这是11个 </div>
+        <div class="col-md-1"> 这是12个 </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3"> 这是1个 </div>
+        <div class="col-md-3"> 这是2个 </div>
+        <div class="col-md-3"> 这是3个 </div>
+        <div class="col-md-3"> 这是4个 </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3"> 这是1个这是1个这是1个这是1个这是1个这是1个这是1个这是1个这是1个这是1个这是1个这是1个这是1个 </div>
+        <div class="col-md-3"> 这是2个 </div>
+        <div class="col-md-3"> 这是3个 </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-1"> 11111 </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-9">
+            one
+            <div class="row">
+                <div class="col-xs-8">
+                    first
+                </div>
+                <div class="col-xs-4">
+                    tow
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-9 col-md-push-3">
+            99999
+        </div>
+
+        <div class="col-md-3 col-md-pull-9">
+            333333
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
